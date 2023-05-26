@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="content">
+  <h1 id="title">
+    Foodpanda Survey Form
+  </h1>
+  <p id="description">
+    <em>Thank you for taking the time to help us improve the platform</em>
+  </p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label">
+        Name 
+        <br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label id="email-label">
+        Email 
+        <br> 
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </label>
+    </fieldset>
+
+<fieldset>
+  <label id="number-label">Age <span class="small-text">(optional) <span><br>
+    <input type="number" id="number" placeholder="Enter your age" min=13 max=120>
+  </label>
+  </fieldset>
+
+<fieldset>
+  <label>
+    What foodpanda service did you avail?
+  </label>
+  <select id="dropdown">
+      <option>
+        Select service
+      </option>
+      <option>
+        Food delivery
+      </option>
+      <option>
+        Pandamart
+      </option>
+      <option>
+        Shops
+      </option>
+      <option>
+        Pick-up
+      </option>
+      <option>
+        Pandago
+      </option>
+  </select>
+</fieldset>
+
+<fieldset>
+  <label>
+    Would you recommend foodpanda to a friend?
+  </label>
+  <div class="radio-buttons">
+  <div class="radio-option">
+    <label>
+      <input type="radio" name="recommend" value="recommend" checked>
+      Definitely
+    </label>
+  </div>
+  <div class="radio-option">
+    <label>
+      <input type="radio" name="recommend" value="recommend">
+      Maybe
+    </label>
+  </div>
+  <div class="radio-option">
+    <label>
+      <input type="radio" name="recommend" value="recommend">
+      Not Sure
+    </label>
+  </div>
+</div>
+</fieldset>
+
+<fieldset>
+  <label>
+    What is your favorite feature of foodpanda?
+  </label>
+  <select>
+    <option>
+      Select an option
+    </option>
+    <option>
+      Fast delivery
+    </option>
+    <option>
+      Many restaurant and shop options
+    </option>
+    <option>
+      Easy to use app
+    </option>
+    <option>
+      Multiple deals
+    </option>
+  </select>
+</fieldset>
+
+<fieldset>
+  <label>
+    What would you like to see improved? (Check all that apply)
+  </label>
+  <label>
+    <input type="checkbox" name="delivery-time"value="delivery-time">
+    Delivery Time
+  </label>
+  <label>
+    <input type="checkbox" name="options" value="options">
+    Restaurant/Shop Options
+  </label>
+  <label>
+    <input type="checkbox" name="usability" value="usability">
+    App Usability
+  </label>
+  <label>
+    <input type="checkbox" name="delivery-guys" value="delivery-guys">
+    Delivery guys
+  </label>
+  <label>
+    <input type="checkbox" name="help-center" value="help-center">
+    Help Center
+  </label>
+  <label>
+    <input type="checkbox" name="reward" value="reward">
+    Vouchers and Rewards
+  </label>
+</fieldset>
+
+<fieldset>
+  <label>
+    Any further comments or suggestions?
+  </label>
+  <textarea rows=5 cols=53 placeholder="Enter your comment here...">
+  </textarea>
+</fieldset>
+
+<fieldset>
+    <input type="submit" name="submit" id="submit">
+</fieldset>
+</div>
+</form>
+</body>
+</html>

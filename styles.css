@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(180, 160, 210);
+  font-family: Tahoma;
+  color: white;
+  background: url("https://media.licdn.com/dms/image/C5612AQEGnwiWMYFJ_g/article-cover_image-shrink_720_1280/0/1595990797854?e=2147483647&v=beta&t=jdwVV5s4uEw8flqa1awoqpTDCFVnN8eruWxTMCm3VPY")
+    no-repeat fixed center;
+  background-size: cover;
+}
+
+.content {
+  margin: auto;
+  background-color: rgba(116, 90, 106, 0.589);
+  border-radius: 0.5rem;
+  width: 500px;
+  padding-bottom: 10px;
+  /* //border:1px groove black; */
+  box-shadow: 0 0 2px black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1,
+p {
+  text-align: center;
+  text-shadow: 0 0 5px #000000;
+}
+
+form {
+  background-color: rgb(0, 0, 0, 70%);
+  width: 400px;
+  padding: 1em 1em;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+textarea {
+  margin-top: 5px;
+  font-family: "Gotham", sans-serif;
+}
+
+input,
+select {
+  width: 90%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+select {
+  width: 370px;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input[type="radio"] {
+  width: 5%;
+  height: auto;
+}
+
+.radio-buttons {
+  height: 10px;
+  display: inline;
+  /* width: 100%; */
+  text-align: left;
+}
+
+input[type="checkbox"] {
+  width: 5%;
+  /* margin-right:-50px; */
+  text-align: left;
+  height: auto;
+}
+
+input[type="submit"] {
+  background-color: #ff1493;
+  border: none;
+  color: white;
+  /* margin: auto; */
+  /* width:376px; */
+  display: block;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  width: 94%;
+}
+
+#submit:hover {
+  background-color: grey;
+}
+
+.small-text {
+  font-size: 10px;
+}
